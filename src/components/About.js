@@ -21,7 +21,7 @@ function About() {
                     </div>
                     <div className="right lg:w-6/12 flex flex-col justify-center items-start p-4 lg:p-10">
                         <p className='text-lg lg:text-xl'>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. PRAESENT TEMPOR ORNARE CONVALLIS. ETIAM SCELERISQUE IPSUM UT DUI VENENATIS VENENATIS. SUSPENDISSE POTENTI. PROIN AT AUCTOR LECTUS. DONEC UT ULLAMCORPER ERAT. SED DIGNISSIM LIGULA ELIT, IN RHONCUS ARCU CONVALLIS AC. MAURIS NISI NEQUE, VESTIBULUM TRISTIQUE FACILISIS QUIS, ULTRICES QUIS LEO</p>
-                        <a href="https://raydium.io/swap/?outputMint=7xEdKtj6nX2nvqPGayLi4egSWwr53NYSaVZQLRLapump&inputMint=sol" target="_blank" rel="noopener noreferrer"><img src={buybtn} alt="" className='my-7' /></a>
+                        <a href="https://jup.ag/swap/SOL-58WKuKzAH6A5QHdBAT8n2QHiFtzXcPXBEEXB785Ppump" target="_blank" rel="noopener noreferrer"><img src={buybtn} alt="" className='my-7' /></a>
 
 
                     </div>

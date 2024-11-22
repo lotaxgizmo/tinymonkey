@@ -17,20 +17,20 @@ function Header() {
 
     return (
         <>
-            <div className='flex lg:flex-row flex-col items-center justify-between relative px-4 lg:px-24 mt-5'>
+            <div className='flex lg:flex-row sflex-col items-center justify-between relative px-4 lg:px-24 mt-5'>
                 <img src={angelbot} alt="" />
 
                 <div className="hidden lg:flex links flex-col lg:flex-row">
                     <a href="#about"><p className='text-2xl mx-4'>ABOUT</p></a>
-                    <a href="#agenomics"><p className='text-2xl mx-4'>ANGENOMICS</p></a>
+                    <a href="#tokenomics"><p className='text-2xl mx-4'>TOKENOMICS</p></a>
                     <a href="#community"><p className='text-2xl mx-4'>COMMUNITY</p></a>
                 </div>
 
                 <div className="btns hidden lg:flex flex-row justify-center items-center">
-                    <a href="https://t.me/AwifSolPortal" target="_blank" rel="noopener noreferrer"><img src={telegram} alt="" className='m-3 w-14' /></a>
-                    <a href="https://dexscreener.com/solana/7xEdKtj6nX2nvqPGayLi4egSWwr53NYSaVZQLRLapump" target="_blank" rel="noopener noreferrer"><img src={dexscreenerbtn} alt="" className='m-3 w-14' /></a>
-                    <a href="https://x.com/angelwifsols" target="_blank" rel="noopener noreferrer"><img src={twitterbtn} alt="" className='m-3 w-14' /></a>
-                    <a href="https://raydium.io/swap/?outputMint=7xEdKtj6nX2nvqPGayLi4egSWwr53NYSaVZQLRLapump&inputMint=sol" target="_blank" rel="noopener noreferrer"><img src={buybtn2} alt="" className='m-3' /></a>
+                    <a href="https://t.me/tinymonkeycommunity" target="_blank" rel="noopener noreferrer"><img src={telegram} alt="" className='m-3 w-14' /></a>
+                    <a href="https://dexscreener.com/solana/65litgsmzjjlqu53etji8bgb5tjpltsxwnbxphftsnrt" target="_blank" rel="noopener noreferrer"><img src={dexscreenerbtn} alt="" className='m-3 w-14' /></a>
+                    <a href="https://x.com/tinythemonkey" target="_blank" rel="noopener noreferrer"><img src={twitterbtn} alt="" className='m-3 w-14' /></a>
+                    <a href="https://jup.ag/swap/SOL-58WKuKzAH6A5QHdBAT8n2QHiFtzXcPXBEEXB785Ppump" target="_blank" rel="noopener noreferrer"><img src={buybtn2} alt="" className='m-3' /></a>
                 </div>
 
                 <div className="lg:hidden">
@@ -45,10 +45,10 @@ function Header() {
                     <a href="#about" className='py-2'><p className='text-2xl'>ABOUT</p></a>
                     <a href="#agenomics" className='py-2'><p className='text-2xl'>ANGENOMICS</p></a>
                     <a href="#community" className='py-2'><p className='text-2xl'>COMMUNITY</p></a>
-                    <a href="https://t.me/AwifSolPortal" target="_blank" rel="noopener noreferrer" className='py-2'><img src={telegram} alt="" className='w-14' /></a>
-                    <a href="https://dexscreener.com/solana/7xEdKtj6nX2nvqPGayLi4egSWwr53NYSaVZQLRLapump" target="_blank" rel="noopener noreferrer" className='py-2'><img src={dexscreenerbtn} alt="" className='w-14' /></a>
-                    <a href="https://x.com/angelwifsols" target="_blank" rel="noopener noreferrer" className='py-2'><img src={twitterbtn} alt="" className='w-14' /></a>
-                    <a href="https://raydium.io/swap/?outputMint=7xEdKtj6nX2nvqPGayLi4egSWwr53NYSaVZQLRLapump&inputMint=sol" target="_blank" rel="noopener noreferrer" className='py-2'><img src={buybtn2} alt="" /></a>
+                    <a href="https://t.me/tinymonkeycommunity" target="_blank" rel="noopener noreferrer" className='py-2'><img src={telegram} alt="" className='w-14' /></a>
+                    <a href="https://dexscreener.com/solana/65litgsmzjjlqu53etji8bgb5tjpltsxwnbxphftsnrt" target="_blank" rel="noopener noreferrer" className='py-2'><img src={dexscreenerbtn} alt="" className='w-14' /></a>
+                    <a href="https://x.com/tinythemonkey" target="_blank" rel="noopener noreferrer" className='py-2'><img src={twitterbtn} alt="" className='w-14' /></a>
+                    <a href="https://jup.ag/swap/SOL-58WKuKzAH6A5QHdBAT8n2QHiFtzXcPXBEEXB785Ppump" target="_blank" rel="noopener noreferrer" className='py-2'><img src={buybtn2} alt="" /></a>
                 </div>
             )}
         </>
