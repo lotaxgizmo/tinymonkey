@@ -11,7 +11,7 @@ function Tokenomics() {
         <div id='agenomics' className='flex flex-col items-center justify-center relative'>
             <img src={angenotxt} alt="" />
 
-            <p className='text-xl text-center mb-10'>PRAESENT TEMPOR ORNARE CONVALLIS. ETIAM SCELERISQUE IPSUM UT DUI VENENATIS</p>
+            {/* <p className='text-xl text-center mb-10'>PRAESENT TEMPOR ORNARE CONVALLIS. ETIAM SCELERISQUE IPSUM UT DUI VENENATIS</p> */}
             {/* <img src={tokenoNAME} alt="" className='p-4' /> */}
             <div className="four flex justify-center items-center flex-col lg:flex-row ">
                 <img src={tokeno} alt="" className='p-4' />
